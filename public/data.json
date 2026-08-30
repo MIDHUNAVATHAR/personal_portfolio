@@ -1,0 +1,210 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        }
+     
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": false
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Midhun M",
+    "title": "Full Stack Developer",
+    "location": "Trivandrum, India",
+    "bio": "Self-taught Full Stack Developer. Problem solver. I build maintainable, scalable web applications that turn ideas into real-world products."
+  },
+  "contactInfo": {
+    "email": "midhun201819@gmail.com",
+    "phone": "91-8138990315",
+    "linkedin": "https://www.linkedin.com/in/memidhunm",
+    "github": "https://github.com/MIDHUNAVATHAR",
+    "twitter": "https://x.com/midhunzelly",
+    "website": "#!"
+  },
+  "skills": {
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "frameworks": [
+      "React",
+      "Node.js",
+      "Express",
+      "Django",
+      "Spring Boot"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "AWS",
+      "GCP"
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Zelly",
+      "description": "Developed and deployed a full-stack e-commerce platform following the MVC architecture for Textiles and Footware shops, featuring JWT and Google OAuth authentication, Razorpay payment integration, and RESTful APIs. Implemented key e-commerce features including product variants such as sizes, referral rewards, offers, coupons, and admin product management. Designed the application with a focus on scalability, security, and maintainability, and deployed it on AWS EC2.",
+      "technologies": [
+        "TailwindCSS",
+        "MongoDB",
+        "EJS Templates",
+        "Express"
+      ],
+      "live_url": "https://cart.fitzelly.online/",
+      "code_repo_url": "https://github.com/MIDHUNAVATHAR/zelly",
+      "cover": "/assets/project_1.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "FitZelly",
+      "description": "Designed and developed a multi-tenant gym management SaaS application with separate portals for gym owners, clients, trainers, and superadmins, utilizing role-based access control (RBAC) to ensure secure and tailored user experiences. Built the frontend with React, TypeScript, and Tailwind CSS, and the backend with Node.js, MongoDB, and Redis following Clean Architecture principles. Implemented JWT authentication with role-based authorization, integrated Stripe for payment processing, and enabled real-time chat and notifications using WebSockets. Deployed the application using Docker Compose on AWS EC2 for the backend and Vercel for the frontend.",
+      "technologies": [
+        "TailwindCSS",
+        "React",
+        "Express",
+        "Typescript",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "BullMQueue"
+      ],
+      "live_url": "https://www.fitzelly.online",
+      "code_repo_url": "https://github.com/MIDHUNAVATHAR/fitzelly-backend",
+      "cover": "/assets/project_2.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Bro Blog",
+      "description": "Designed and developed a blog management platform that enables users to create, edit, and manage blog posts with a secure and structured content management workflow. Built the frontend with React and the backend with Express.js, following the Repository Pattern and SOLID principles, with PostgreSQL as the relational database. Implemented JWT authentication and role-based authorization to ensure secure access control, and developed RESTful APIs for efficient content management. Deployed the frontend on Vercel and the backend on Render.",
+      "technologies": [
+        "TailwindCSS",
+        "React",
+        "express",
+        "Typescript",
+        "PostgreSQL"
+      ],
+      "live_url": "https://broblog-frontend.vercel.app",
+      "code_repo_url": "https://github.com/MIDHUNAVATHAR/broblog-backend",
+      "cover": "/assets/project_3.jpeg"
+    },
+      {
+      "id": "4",
+      "title": "PDF Extractor",
+      "description": "Designed and developed a PDF manipulation platform that allows users to upload PDF files, select and rearrange pages, and download the modified document. Built the frontend with Next.js and the backend with Nest.js, following the Repository Pattern and SOLID principles for maintainable and scalable architecture. Implemented JWT authentication and integrated the Brevo email service for OTP-based user authentication and account verification. Deployed the frontend on Vercel and the backend on Render.",
+      "technologies": [
+        "Typescript",
+        "Next.js",
+        "Nest.js",
+        "TailwindCSS",
+        "Brevo Email Service"
+      ],
+      "live_url": "https://pdf-filter-frontend.vercel.app/",
+      "code_repo_url": "https://github.com/MIDHUNAVATHAR/PdfFilter_backend",
+      "cover": "/assets/project_4.jpeg"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Cadd Talentz",
+      "companyWebsite": "#",
+      "role": "Mentor",
+      "startDate": "Dec 2022",
+      "endDate": "June 2023",
+      "technologies": [
+        "Html",
+        "Css",
+        "Bootstrap",
+        "Javascript",
+        "Jquery"
+      ],
+      "keyResponsibilities": [
+        "Mentored students in web design and guided them through building responsive static websites from scratch. Taught core concepts of dynamic web development, including cross-device responsiveness and deployment workflows, enabling students to create and publish production-ready websites independently."
+        ,"Teach html, css, bootstrap, javascript, jquery and hosting"
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Preethi Kitchen Appliances",
+      "companyWebsite": "#!",
+      "role": "Brand Promoter",
+      "startDate": "July 2023",
+      "endDate": "April 2024",
+      "technologies": [
+        
+      ],
+      "keyResponsibilities": [
+        "Assisted walk-in customers by understanding their needs and recommending suitable kitchen appliances",
+  "Promoted brand products through detailed product demonstrations and feature explanations",
+  "Handled customer inquiries and provided pre-sales guidance to drive purchase decisions",
+  "Coordinated product-related services, including after-sales support and service scheduling"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Vigyaan College of Applied Sciences (Kerala University)",
+      "degree": "B.com With Computer Application",
+      "description": "Completed coursework - B.Com with Computer Applications, combining business and commerce studies with exposure to computer applications.",
+      "startDate": "2019",
+      "endDate": "2022"
+    },
+    {
+      "id": "2",
+      "institution": "Brototype",
+      "degree": "Full Stack Development (MERN)",
+      "description": "Upscaled programming expertise through intensive self-research and hands-on analysis, mastering backend servers, REST APIs, and deployment workflows. Built multiple full-stack projects using the MERN stack while developing professional discipline and gaining real-world experience in an industry-simulated work environment",
+      "startDate": "2024",
+      "endDate": "2026"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "avatar": "/assets/testimonial_1_avatar.jpg",
+      "title": "Project Manager",
+      "company": "Tech Solutions Inc.",
+      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+    },
+    {
+      "id": "2",
+      "name": "Mike Johnson",
+      "avatar": "/assets/testimonial_2_avatar.jpg",
+      "title": "CEO",
+      "company": "Web Innovators LLC",
+      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+    }
+  ]
+}
