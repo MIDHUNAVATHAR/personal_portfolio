@@ -1,12 +1,8 @@
 import withMDX from '@next/mdx'
 
-const basePath = '/';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath,
-    assetPrefix: basePath,
     images: {
         unoptimized: true,
     },
